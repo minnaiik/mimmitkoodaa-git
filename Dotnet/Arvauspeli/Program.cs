@@ -24,15 +24,16 @@ namespace Arvauspeli
 
                 }
                 else if (arvaus > luku) {
-                    Console.WriteLine("Oikea luku on pienempi.") {
+                    Console.WriteLine("Oikea luku on pienempi."); 
 
                     }
                     else {
                         Console.WriteLine("Oikein! Voitit pelin!");
+                        break;
                     }
                     arvauskertoja++;
                 }
-            }
+            
            
     
 
